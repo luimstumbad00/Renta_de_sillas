@@ -1,0 +1,62 @@
+body{
+    background-color:#ffffff; 
+    font-family: monospace;
+}
+
+/* Resetear los estilos por defecto del navegador */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #9966ff;
+}
+
+/* Estilo para la lista no ordenada (ul) dentro de la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estilo para los elementos de la lista (li) dentro de la barra de navegación */
+nav li {
+    float: left;
+}
+
+/* Estilo para los enlaces (a) dentro de los elementos de la lista */
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambiar el color del enlace cuando se pasa el cursor por encima */
+nav li a:hover {
+    background-color: #ffffff;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recuadro {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.recuadro, img{
+     width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
