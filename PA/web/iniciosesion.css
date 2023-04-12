@@ -80,23 +80,3 @@ li a img {
   vertical-align: middle;
 }
 /* ----------------------------- */
-
-.contenedor {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.recuadro {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
-  border: 2px solid black;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.recuadro, img{
-     width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
