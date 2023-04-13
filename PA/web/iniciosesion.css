@@ -2,6 +2,8 @@
 nav {
   background-color: #232f3e;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav ul {
